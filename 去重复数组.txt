@@ -1,0 +1,7 @@
+int[] i = {1,2,2,145,66};
+HashSet set  = new HashSet();
+for(int j:i){
+set.add(j);
+}
+Object[] oo=set.toArray();
+±éÀúoo
