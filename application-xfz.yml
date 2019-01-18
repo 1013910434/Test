@@ -3,10 +3,6 @@ server:
 spring:
   application:
     name: Service-Consumer
- servlet:
-    multipart:
-      max-file-size: 10485760
-      max-request-size: 10485760
   thymeleaf:
     cache: false
     prefix: classpath:/templates/
